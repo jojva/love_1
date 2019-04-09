@@ -7,144 +7,57 @@
  *========================================
  */
 
-#define D51HEIGHT	10
-#define D51FUNNEL	 7
-#define D51LENGTH	83
-#define D51PATTERNS	 6
+#define SEAL_HEIGHT	50
+#define SEAL_LENGTH	210
 
-
-#define D51STR1  "      ====        ________                ___________ "
-#define D51STR2  "  _D _|  |_______/        \\__I_I_____===__|_________| "
-#define D51STR3  "   |(_)---  |   H\\________/ |   |        =|___ ___|   "
-#define D51STR4  "   /     |  |   H  |  |     |   |         ||_| |_||   "
-#define D51STR5  "  |      |  |   H  |__--------------------| [___] |   "
-#define D51STR6  "  | ________|___H__/__|_____/[][]~\\_______|       |   "
-#define D51STR7  "  |/ |   |-----------I_____I [][] []  D   |=======|__ "
-
-#define D51WHL11 "__/ =| o |=-~~\\  /~~\\  /~~\\  /~~\\ ____Y___________|__ "
-#define D51WHL12 " |/-=|___|=    ||    ||    ||    |_____/~\\___/        "
-#define D51WHL13 "  \\_/      \\O=====O=====O=====O_/      \\_/            "
-
-#define D51WHL21 "__/ =| o |=-~~\\  /~~\\  /~~\\  /~~\\ ____Y___________|__ "
-#define D51WHL22 " |/-=|___|=O=====O=====O=====O   |_____/~\\___/        "
-#define D51WHL23 "  \\_/      \\__/  \\__/  \\__/  \\__/      \\_/            "
-
-#define D51WHL31 "__/ =| o |=-O=====O=====O=====O \\ ____Y___________|__ "
-#define D51WHL32 " |/-=|___|=    ||    ||    ||    |_____/~\\___/        "
-#define D51WHL33 "  \\_/      \\__/  \\__/  \\__/  \\__/      \\_/            "
-
-#define D51WHL41 "__/ =| o |=-~O=====O=====O=====O\\ ____Y___________|__ "
-#define D51WHL42 " |/-=|___|=    ||    ||    ||    |_____/~\\___/        "
-#define D51WHL43 "  \\_/      \\__/  \\__/  \\__/  \\__/      \\_/            "
-
-#define D51WHL51 "__/ =| o |=-~~\\  /~~\\  /~~\\  /~~\\ ____Y___________|__ "
-#define D51WHL52 " |/-=|___|=   O=====O=====O=====O|_____/~\\___/        "
-#define D51WHL53 "  \\_/      \\__/  \\__/  \\__/  \\__/      \\_/            "
-
-#define D51WHL61 "__/ =| o |=-~~\\  /~~\\  /~~\\  /~~\\ ____Y___________|__ "
-#define D51WHL62 " |/-=|___|=    ||    ||    ||    |_____/~\\___/        "
-#define D51WHL63 "  \\_/      \\_O=====O=====O=====O/      \\_/            "
-
-#define D51DEL   "                                                      "
-
-#define COAL01 "                              "
-#define COAL02 "                              "
-#define COAL03 "    _________________         "
-#define COAL04 "   _|                \\_____A  "
-#define COAL05 " =|                        |  "
-#define COAL06 " -|                        |  "
-#define COAL07 "__|________________________|_ "
-#define COAL08 "|__________________________|_ "
-#define COAL09 "   |_D__D__D_|  |_D__D__D_|   "
-#define COAL10 "    \\_/   \\_/    \\_/   \\_/    "
-
-#define COALDEL "                              "
-
-#define LOGOHEIGHT    	 6
-#define LOGOFUNNEL  	 4
-#define LOGOLENGTH      84
-#define LOGOPATTERNS	 6
-
-#define LOGO1  "     ++      +------ "
-#define LOGO2  "     ||      |+-+ |  "
-#define LOGO3  "   /---------|| | |  "
-#define LOGO4  "  + ========  +-+ |  "
-
-#define LWHL11 " _|--O========O~\\-+  "
-#define LWHL12 "//// \\_/      \\_/    "
-
-#define LWHL21 " _|--/O========O\\-+  "
-#define LWHL22 "//// \\_/      \\_/    "
-
-#define LWHL31 " _|--/~O========O-+  "
-#define LWHL32 "//// \\_/      \\_/    "
-
-#define LWHL41 " _|--/~\\------/~\\-+  "
-#define LWHL42 "//// \\_O========O    "
-
-#define LWHL51 " _|--/~\\------/~\\-+  "
-#define LWHL52 "//// \\O========O/    "
-
-#define LWHL61 " _|--/~\\------/~\\-+  "
-#define LWHL62 "//// O========O_/    "
-
-#define LCOAL1 "____                 "
-#define LCOAL2 "|   \\@@@@@@@@@@@     "
-#define LCOAL3 "|    \\@@@@@@@@@@@@@_ "
-#define LCOAL4 "|                  | "
-#define LCOAL5 "|__________________| "
-#define LCOAL6 "   (O)       (O)     "
-
-#define LCAR1  "____________________ "
-#define LCAR2  "|  ___ ___ ___ ___ | "
-#define LCAR3  "|  |_| |_| |_| |_| | "
-#define LCAR4  "|__________________| "
-#define LCAR5  "|__________________| "
-#define LCAR6  "   (O)        (O)    "
-
-#define DELLN  "                     "
-
-#define C51HEIGHT 11
-#define C51FUNNEL 7
-#define C51LENGTH 87
-#define C51PATTERNS 6
-
-#define C51DEL "                                                       "
-
-#define C51STR1 "        ___                                            "
-#define C51STR2 "       _|_|_  _     __       __             ___________"
-#define C51STR3 "    D__/   \\_(_)___|  |__H__|  |_____I_Ii_()|_________|"
-#define C51STR4 "     | `---'   |:: `--'  H  `--'         |  |___ ___|  "
-#define C51STR5 "    +|~~~~~~~~++::~~~~~~~H~~+=====+~~~~~~|~~||_| |_||  "
-#define C51STR6 "    ||        | ::       H  +=====+      |  |::  ...|  "
-#define C51STR7 "|    | _______|_::-----------------[][]-----|       |  "
-
-#define C51WH61 "| /~~ ||   |-----/~~~~\\  /[I_____I][][] --|||_______|__"
-#define C51WH62 "------'|oOo|==[]=-     ||      ||      |  ||=======_|__"
-#define C51WH63 "/~\\____|___|/~\\_|   O=======O=======O  |__|+-/~\\_|     "
-#define C51WH64 "\\_/         \\_/  \\____/  \\____/  \\____/      \\_/       "
-
-#define C51WH51 "| /~~ ||   |-----/~~~~\\  /[I_____I][][] --|||_______|__"
-#define C51WH52 "------'|oOo|===[]=-    ||      ||      |  ||=======_|__"
-#define C51WH53 "/~\\____|___|/~\\_|    O=======O=======O |__|+-/~\\_|     "
-#define C51WH54 "\\_/         \\_/  \\____/  \\____/  \\____/      \\_/       "
-
-#define C51WH41 "| /~~ ||   |-----/~~~~\\  /[I_____I][][] --|||_______|__"
-#define C51WH42 "------'|oOo|===[]=- O=======O=======O  |  ||=======_|__"
-#define C51WH43 "/~\\____|___|/~\\_|      ||      ||      |__|+-/~\\_|     "
-#define C51WH44 "\\_/         \\_/  \\____/  \\____/  \\____/      \\_/       "
-
-#define C51WH31 "| /~~ ||   |-----/~~~~\\  /[I_____I][][] --|||_______|__"
-#define C51WH32 "------'|oOo|==[]=- O=======O=======O   |  ||=======_|__"
-#define C51WH33 "/~\\____|___|/~\\_|      ||      ||      |__|+-/~\\_|     "
-#define C51WH34 "\\_/         \\_/  \\____/  \\____/  \\____/      \\_/       "
-
-#define C51WH21 "| /~~ ||   |-----/~~~~\\  /[I_____I][][] --|||_______|__"
-#define C51WH22 "------'|oOo|=[]=- O=======O=======O    |  ||=======_|__"
-#define C51WH23 "/~\\____|___|/~\\_|      ||      ||      |__|+-/~\\_|     "
-#define C51WH24 "\\_/         \\_/  \\____/  \\____/  \\____/      \\_/       "
-
-#define C51WH11 "| /~~ ||   |-----/~~~~\\  /[I_____I][][] --|||_______|__"
-#define C51WH12 "------'|oOo|=[]=-      ||      ||      |  ||=======_|__"
-#define C51WH13 "/~\\____|___|/~\\_|  O=======O=======O   |__|+-/~\\_|     "
-#define C51WH14 "\\_/         \\_/  \\____/  \\____/  \\____/      \\_/       "
+#define S00 ":;::cc:::::::ccccccc::cclllllcclllcc:ccccccccclllccllolcccccccccclllccllllollllccccccccclccccccccccc::::::::::::::::::::;;;;;,,,;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,''''',,,,,,,,,;;;;;;;,,,;;;;;;,,;;;;;;;;::,...';;;: "
+#define S01 ";;::cc::::::ccccc::::::cllllllllllcc:::::::ccccccclllllllllllllccllcccclllolllccccccccccccclccccccc:::::::::::::::::::;;,,,,,,,,;;;;;,,,'''',,,,,,,,,,,;;;;;;,,'''',,,,,,,,,;;;;;;;;;;;;;;;;;,,;;;;;;;:::;,,;;;::: "
+#define S02 ":;::::::::::::::::::;:::ccccccccccc::;;;;;:::::::ccccccclllllcclllccccclloolccccccccccllllllllcccllclllllcc:::::::::::;,'''',;;;;;,,''.....'',,,,,,,,,,,;;,,,'''''',,,;;,,;;;;:;;;;;;;;;;;;;;;;;;;;;::::;;,,;;;;;: "
+#define S03 ":;;::::::;;;;;:::::::::::ccllolc::::::::::::::::::::::ccccccccclllccllllllllccccccccclllllllodxkO000000000OOxdl:::::::;,''',;;::;;,'...''',;;:;;;;;;,,''''''.....'',,;;;;;;::::::::;;;;;;::;;;;;;;;;:::::;;,;;:::: "
+#define S04 ";::::::::;;;;::ccccc:c::::ccllllc:::::cclccccccccccc::::::cccccccccclllllcccccllllccccllodkO00OOOOkkOkkkkkOOO00kdc:::::;;;;;:::clcccloxxxkOOkOkkxxkxxxdoool:::;,,,'',;:;;;;:::::::::;;;:::;;;;;;;;:::::::::;:::::: "
+#define S05 ":::::::::::;;::ccclllllcccccccccc:::::cclcccccccccc:::;;;::::::::cccccccccclllllllllloxkOOOOkkkkxxdddxxddodddxkkOOdllloodxxxkOO000KKKKKKKKKKKKKKKKKKKKKKKKK000000Oxddxxdddooooccc::::::::::;;::;::;;,,;::::ccc:::: "
+#define S06 "::::::::::;;;;::cccccllllllcc::;;;;::::::::::::::::::::::::::::::ccccclllddxkO0OOO000KK00OOOOkkxxxdoooooooodxkkO000000KKKKKKK00000KKKK00000000000000000000000000000000KKK00000OOOxoocc:::::::::::::;;;;::::::::::: "
+#define S07 ":::;::;;;;;;;;:::ccccccllllcc:::;;;:::;::::::::::cc::::::::cccccccclldkkO00K0KKKKKKKKKKKK000000OOOOkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOO0OOOO0O0OOOOO00OOOO0OOOOOOOOOOOOOOOOOOOO000000000OOxxdlcc:c:::cccccccc::::::::c "
+#define S08 ":::::::;;;;;;;;;:cc:::ccllllcccc:::c:::::::::::::::::::::cccccccoxkOO0K0000OOOOOOOO00000OOOOOOOOkkkkkkkkxxkxxxxxxxxxxxxxxxxkkkOOOOOOOOOOOOOkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkOOOOOOO000KK00kxolcccc:cccccc::cccccc "
+#define S09 ":::::;;;;;;;;;;::c:::ccccccccccc:::;;;::::;:;::::::ccclllooloodkOKKK00OOOkOkkkkkkkkOOkkkkkOkkkkkkxkxxxxdddddddddddddddddddxxxxxkkkkkkkkkxxxxxxxxxxxxxdddddddddddxxxxxxxxddddddxxkkkOOOOO0000000Okxolcccc:::ccccccc "
+#define S10 ";;;;;;;;;;;;;;;;::::::ccccccccc::::;;;;:::::cldxOOO0000000000000000000OOOkkxxkkxxkkkkkxkkkkkkkkkkkkkxxddddddooooooooodddoddddddxdxxddddoddodoooddddddooooooooooodddddddddddddddddxxkkkxxkkOO000000000OOxddoolcccc: "
+#define S11 ":;;;;;;;;;;;;;;;;;;;::::::::c:::::;;,,,;ldkO000OOOOOkkkkkkkkkOkkOO00KKKK000OkkkxxxxxxxkxxxxxxxxxxxxxxxxddddooolllllllllllloooooooooooooooooooodddddoooolllooooodddooodddddddddddddddxkkxxxkkkkkkkkkOOO00KK00Okxxdo "
+#define S12 "::::::::;;;;;;;;;;;;::;;;;;:::::::;;:cdk0OkkkxdddoddoooooooooooodxxkkOO00000000OkxxxxxxkkkxxxxxxxxxxxddddooooooollllllllccllllllllloooooooooooodddddoooolllllllllllllllllloooooddodddxxddddddxxxxxdxxxkkO0OOOOOO00 "
+#define S13 ":::::;;;;,,,,,,,,;;;;;;;;;;:::::::lxOOkxdocccccclllllcllccccc::clloddxxkkOO000KKK0kxxxkkkkxxxdddddddddddoodooooolllllcccccccccclllllllllllllooooooooooollllcccllllllllllloooodddddooooddooooddxxddddddxkkkkkOOOOOO "
+#define S14 ":;;;;;;;;,,,,,,,,,,;;;;:::::::::lkOkdolccc::::::cc::::::::::,'',,,,;;cloodxkO000KKKKOkxxxkkkxxxdddddddddddddooooolllllllcccccccccccclllllllllloolllllllllllllllllllllooooodddddddddddooollllloooddddoddxxxkxkkxkkO "
+#define S15 ";;;,,;;;;;;;;;;;;;;;;;;;;;;;::cxkxdc:::;;;;;::;;;::;;;;;;:;,;;;,'''...',;codkO0000KKXKOxxxxkkkkxxddddddddddddooooooolllllccccccccccccccccccllllllllllllllllllllloooooooddddooddddddddoooolllllllooooooooddddxxxxxx "
+#define S16 ";;;;;;;;;;;;;;;;;;;;;;,,,,,;:xOxdc;,,,,,,,,,;;;;;;;;,;;;;;'..     .. ...';clodxkO000KKX0kxxxkkkkkxxddoddddddddoooooolllllccccccc:cccccccccclcllllllllllllllllloooooddoodddodddddddddddddooolllloooooollloooodddddx "
+#define S17 "''''',,,,,,,,,;;;;;;,,,,,,;okkdc,','''''''',,,,,;;;,,;;;;:;..         ...';:lodxk0K0000KK0kxxkkkOkkxdddddddoooooooolllllccccccccccccccccccccccllllooooolllllllooooodoodddddddddddoooddddddollllllllllllloolodddddd "
+#define S18 ",''.............'''''',,,:dxdl;'''...'......''''',,,,',,,;;,..        ..';::lodxxkkO0O0KK00Oxdxxkkkkxooooooooooollllllllcccccccccccccccccccccllllllllloooooooooooooooooooooooolllloooooooooollllllllcllooooodddddd "
+#define S19 "c:::::;;,,''..........''cddc,'..................''''...'',,;,...   ...',,,,;::cllllccoodO0OOOxdxxkkkkxdoooooooooooollllllcccc:::::ccc:ccccccccllllloooooooooooooooolllcllllllccc:cccccllooooooooooolllloooooddddoo "
+#define S20 "ollllllllcccc::;;,,''',lxl;............................''''''..............',,,,,',,,;::oxkOOOkdxxkkOOkxdddddddddoooolllccccccc::::::cc:cccccccccclllllllllllooollllcccccccccc:::::ccclllooooodooolllcccclllllllll "
+#define S21 "ooooooooooollllllccc:codc'.......  ...    .    ....................................'.';;ccodk0OkddxkkOOkxddddddddddooollllcccc::::::::::::cc::cccccccccclllllololllclcccclcllcccccllllllooooooddoollllllllllcccccc "
+#define S22 "dddddoooooooooooollloxxl,........                . ......................    .........',::loxO0OxddxkkOOkxddddddddddoolllllcccccccc:ccccc::cccccccccclllllooooooolllclclllloollllllllllloooooooooooooooooolllccccc "
+#define S23 "ddddddddddddddoooooodxc,.......                       .....................  ..........',:clloOOxoodxxkOOkxddddxxxddddddoooooollllllllllclcclclllllllloooooooooolllllooooooollllllllllllllllllllllloooooooooollcc: "
+#define S24 "dddddddddddddddooooddo:'......                           . .................   ........',;;;;,lkOoclodxkkkxddddxxxxkkkxxxxddddooooooolooooollolloooooooooooooollllloooooooolooollllcccccccccccllcclclllllooollcc:: "
+#define S25 "kxxxxxxxxxxddddddxxxo;'....                              ...................'...,'. ......''..,l0xclodxxkkkxddxxxxkkkkkkkkkxxxdddddddddddddooooodooooooooooooolllllllllooooooollllcc:::::::ccccccccccccllllccc:::c "
+#define S26 "OOOOOOkkkkkkkkkkkkkxc'....                         ....................   .';;..''.......,,...,cOkcclodxkkkxddddxxxxkkkkkkkkkxxxxxxxxxxxxxxdddddddooooooooooollllccccclllllllllccccc::c::ccccclccccclllllllcc::::: "
+#define S27 "OOOOOOOOOOOOOOOOOOOx:....                         .....................            .....',,..';oOklllodxkkkkdoodddxxxxkkkkkkkkkkkkkxkkkkkkkkxxddxddddoooooooolllcccccccccccccccccc::::::::cccccclllllllllllcc::::: "
+#define S28 "00000000000OOOOOOOOx:...                        ............................ .. .  ...,,'''',;ckOxcllodxxkkkxdoodddxxxxxxkxxxkkkxkkxkkkkkOOOkkkkxxxxddddddooollllcccccccccclcccc::;;;;;;;;::ccccclllllcccc:::::::c "
+#define S29 "0000000000000000000x;.....                     ........'','.........................,;:c:,.';cdOOoccloddxkkkxddddddddddxxxxxxxxxxxxxxxxxkkOOOOkOkkkkkkxxxdddoolllcccccccccccccc:::;;;;;;;;;;;:::ccccccc:::::::::cc "
+#define S30 "0000000000000000000k:........                 ......',,'...   ..................',',::cll,..:dkkdcccloddxxkkxdddddddddddddddxxdxxxxxxxxxxkOOOOOkOkkkkkkkkkxxddollccccccccccccc::::::::::;;;;;;;:::cccccccc:::::ccc "
+#define S31 "00000000000000KKKKKOl........               .......,;,.        .............'..,,,,:::loo;':oxxxlc:cllodxxxxxddoooooooodddddddddddddxddddxkOkOOkkkkkkkkkkkkkxxdollcccccc::::::::::cc::::;;;;;;;;;::::ccccc:::::::c "
+#define S32 "00O000000000OOOOO000d,.......            .........',,.          ..........',,',;,,:::lol:,:dxdddl::cclooddxxdooollolllooooooodddddddddoooodkkkkkxkkkkkkkkkkkkkkxdolcc:::::;;;;;:::::::;;;;;;;;;;;;;;;;:::::::::;;; "
+#define S33 "OkkkkkkkOOOOOOkkkkkOxc,......           ........'..,.            .......'..',,,;;::cllccldxxdddl:::ccllodddddollcclccclllllooooooooooollllodxdxxxdxxdxxddxxxxkkkkxolc:;;;;;,;;;::;:;;;,,,,;;;;;;;;;;;;;;;;;;;;;;,; "
+#define S34 "0OOOOOOOOOOOOOOOOOOOOd:'......        .........'''.'.             ...''',,,;;;cc::lcclodxxdoodoc::cccllooddolllccc:c:cccclolllllllllllccccllloooollolllllloooddxxkxdlc::;;;;;;;;;;;;;,,,,,,,;;;;;,,,,,;;,,,,;;,,,; "
+#define S35 "KKK0000000000OOOOOO00Oo,.....        ..........'','...           ...'',,;;::ccllllcclodxxoloolc;::ccclloooollccccccc::::clllllllllcccc::::::::ccc::c::cccccllooddxxxdlc::;;;;:::;;;;;;,,,,,,,,,,,,,,,;;;;;;;;;,,,, "
+#define S36 "00KKKKKKKKKKKK00000000kc'....       ............'''....        ...',;;;;;::ccloooolddxdlclodoc;;;::cclloollllc::::::::cccccccccccc::::;;;;;,;;;;;;;::clllllllllllllooooll:;;;;;;;;;;;;;;;,,,,,,,,,,,,,;;;;;;;;,,,, "
+#define S37 "K00000000KKKKK000000000x:'....      .............'''....  .....'',;;:::cccclllooddooolccloooc:;;;::cclllllodoc::::cccclcccccccc:::;:;;,,,,,,,,,,;;::ccc::;;;;;;;;;:clloolollc:::;;;;,;;;,,,,,,,,,,,,,,,,,,,,,,,,,, "
+#define S38 "KK00K00000000OOOOOOOOOOOxl;.....    ............'''''......''',,,;;;;::ccllooooollc:::cloooc;;;;;:cccllcccddoc:c:::coddlcc:cooc::;;;,,'''','''',,;:;;;;,,'''''.''',,,;;;;:clcccccccc::;;;;;;;;;;,,,,,,,'',,,,,'',, "
+#define S39 "KK0KKK00000OOOOOkkkkkkkxxddoolc:,... ......'''''''''''......''',,,;;;::cclllcc:::::cclloolc:;;;;;:ccccc:ccolc;;;;:llolcc:clllolcccc:,',''''''.'',coc,'.''........'''',,,;;:cccccllcllollccc:::;;;;:;;;,,,,,,,,,,,, "
+#define S40 "KKKKKKKXXK000000K00OOkkkkxxxxddoolc;'......''',,,,,'''........'''',,;;;;;;;;;;;::clloolc:;;;;;:::ccccloooolc;,,;clclooddc;colc:cccc:',,''''''.,;;':l,.................''',,;;;::ccc::cclloodoooolccc:;;;;,,,,,,,;; "
+#define S41 "XKXXXKXXXXXXXXXXXXKKKK000Okkxxxxdooolc::;,'''..'''.................'''''',,,;::clllllc:;,,;::::ccccccollc:;,,;;;;;;::cclll:,;lll:,''',;,''.'.':c:...;c;...............'''',,,;:::::cc:cclllllodddddddolc::;,,,,,;; "
+#define S42 "XXXXXXXXXXXXXXXXXXXXXXXXXXKKK0O0OOOOOOkxdoooolllcc:::c:::loolcc::;;;;,;;;;;;::cccc::,,',,,;:::::::::::;,,,,;;;;;;;;;;,;cc:,,,,,,''..;cc:'',:;':;'...;c;'........'.''.'''''',,,;;;:;;::::cccllllllooddddxxxddolcc:: "
+#define S43 "XXXXXXNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXKXXKK00KK00KK00000O000KKKKK0OOOOOOOkkkxxxxxxkxxddddddddoddddxxxdllcc:::,,,,,,,,,,,:::;,,,,'',''.::::,.';;'''.','',''''.''''''''''''''''',,,,,;;,,;;::c::cccccllllllloooooodddd "
+#define S44 "XXXXXXXXXXXNNXXNNNNNNNNNNNNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXKKKKKKKK0000000KKKK00KK0KKKKKKKKKKKKKKOOkkxdddddoool:,,,;,,,,'.,,,,,''''''',;;;;,''''....'''''''',,,,,,,,,,,,;;;;;;;;:oxdoc:::::ccclllooooddd "
+#define S45 "XXXXXXXXXXXNNNXXXNNNNNNNXXXNNNNNXXXXXXNNNNNNXXXXNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXKKKKKKKKKKKKKKKKKKKXXKKKKKKXXKKKKKKKKKKKKKOkdllccloc:c;,,'''''''.............'...'.'',,;::;;;;;:codxxxkOkkkKXXXKOOOkOO00KKKKKKXXXX "
+#define S46 "XXXXXXXKKXXXXNXXXXNNNNNNXXXNNNNNNNNNNNNNNNNNNXXXXNNNNNNNNNNNXNNNNNNNNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXKKK0KKKK000OkkkxO0kkkd00OO0OOO0KXXXKKKKKXXXXXXXXXXXKXXXXXXXXXXXXXXXXXXXXXXX "
+#define S47 "XXXXXXXXXXXXXXXXXXXNNNNNNXNNNNNNNNNNNNNNNNNNNNNNXXXXXNXXXNNNNNNNNNNNXNNNNNNNNNXNXNNNNNNXXXXXXXNNNNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXKXXXKKKKXKKKXXXXXXXXXXXXXXXXXXXXXXXXNNNNNNNNNNXXXXXX "
+#define S48 "XXXXXXXXXXXXXXXXXXXXXNNXXXXXXXXXXXXXXXXXXNNNXXNNNNNNNNNXXXNNNXXXNXXXXXXXXXXXXXXXXXXXXXXXXXNNNNNNNNNNNNNNNNNNNNNNNNNNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXKKKKKKKK000KKKKXXXXXXKKKKKKKKKKKKKKKKXXXXXNXXXXXXXXXXXX "
+#define S49 "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNNNNNNNNNNNNNNNNNNXXXNXXXXXXXXXXKXKKKKXXXXXXXXXXXXXNNNNXXXXNNNXNNNNNNNNNNNNNNNNNNNNNNNXXNXXXXXXXXXNNNXXXXXXXXXXXXXKKKKXXXXXXXKKKK000000000KKKKXXXXXXXXXXXXXXXXXXXX "
+#define S50 "                                                                                                                                                                                                                   "
